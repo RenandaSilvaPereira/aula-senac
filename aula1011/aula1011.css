@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.container{
+
+    width: 1200px;
+    height: 920px;
+    border: 3px solid crimson;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+
+
+
+}
+
+.inside-content{
+
+    width: 200px;
+    
+    height: 200px;
+    border: 3px solid seagreen;
+
+
+}
