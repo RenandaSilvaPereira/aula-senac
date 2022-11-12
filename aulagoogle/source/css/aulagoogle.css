@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+
+    /*posicionamento dos itens*/
+
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+
+}
+
+/* COMEÇO DO HEADER */
+
+.header-content{
+    background-color: rgb(240, 238, 238);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-weight: 400;
+    padding-right: 20px;
+    
+}
+
+.link{
+    text-decoration: none;
+    padding-left: 12px;
+    color: #393939;
+}
+
+.link:hover{
+
+    text-decoration: underline;
+
+
+}
+
+.btn{
+    padding: 10px 25px;
+    border-radius: 5px;
+    margin-left: 10px;
+    background-color: #1a73e8;
+    color: #fff;
+    text-decoration: none !important;
+    transition: 00.4s;
+    
+    
+}
+
+.btn:hover{
+
+    background-color: #1463ca;
+
+
+}
+
+
+/* FIM DO HEADER */
+
+.main-content{
+    background-color: rgb(241, 241, 241);
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: column;
+
+
+    align-items: center;
+    justify-content: center;
+
+}
+
+.input-text{
+    width: 40vw;
+    height: 40px;
+    border-radius: 50px;
+    border: transparent;
+    border: 1px solid #ccc;
+
+}
+
+.input-search{
+
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    
+}
+
+.png{
+
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: 8px;
+    
+    
+}
+
+.png1{
+
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    margin-left: 8px;
+    right: 0;
+    margin-right: 100px;
+    
+    
+    
+}
+
+.png2{
+
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    margin-left: 8px;
+    right: 0;
+    margin-right: 60px;
+    
+    
+    
+}
+
+.png3{
+
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    margin-left: 8px;
+    right: 0;
+    margin-right: 20px;
+    
+    
+    
+}
+
+
+.footer-content{
+    background-color: rgb(241, 241, 241);
+    height: 94px;
+}
+
+svg{
+    fill: #5f6368;
+    transition: 0.4;
+    border-radius: 70%;
+    padding: 8px;
+    background-color: transparent
+    transition 1.0;
+    
+
+}
+
+svg:hover{
+
+    
+    background-color: rgb(196, 196, 196);
+    transition: ease 1.7s;
+
+
+}
